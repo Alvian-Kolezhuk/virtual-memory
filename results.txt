@@ -1,0 +1,61 @@
+Merge sort:    0000000588B8AC05 tacts in unreal mode
+DTLB1/DTLB2/Memory 0000000126426CCD/0000000000000786/0000000000340036
+Random access: 00000004C0F6A2E6 tacts in unreal mode
+DTLB1/DTLB2/Memory 00000000569EA5DD/00000000001FBE24/000000000FDFBCEF
+Merge sort:    0000000590A736E8 tacts in protected mode with page addressing
+DTLB1/DTLB2/Memory 00000001267E3D2F/0000000000000AF2/000000000033FA5A
+Random access: 00000005B5321A7A tacts in protected mode with page addressing
+DTLB1/DTLB2/Memory 00000000511623ED/00000000001D770B/000000000FDFB12B
+Merge sort:    0000000569A8C9CC tacts in long mode with page addressing
+DTLB1/DTLB2/Memory 0000000147E5BE05/0000000000000845/000000000033F955
+Random access: 00000006DAFD5A19 tacts in long mode with page addressing
+DTLB1/DTLB2/Memory 0000000050332869/00000000001D5F37/000000000FDFB200
+
+Protected mode penalty:
+Merge sort:    0.56%
+Random access: 20%
+
+Long mode penalty:
+Merge sort:    -2.2%
+Random access: 44.2%
+
+Enabled cache:
+Merge sort:    000000004F8ED9B1 tacts in unreal mode
+DTLB1/DTLB2/Memory 0000000011596E89/00000000000005CC/000000000002BAD2
+Random access: 00000000356C5D79 tacts in unreal mode
+DTLB1/DTLB2/Memory 0000000005D55AF6/00000000001E7509/0000000000DFC3F2
+Merge sort:    000000004FF295BE tacts in protected mode with page addressing
+DTLB1/DTLB2/Memory 00000000115C6BC6/0000000000000806/000000000002B887
+Random access: 000000003B631221 tacts in protected mode with page addressing
+DTLB1/DTLB2/Memory 0000000005A11B44/00000000001DE6E5/0000000000DFBFBB
+Merge sort:    000000005054E7DC tacts in long mode with page addressing
+DTLB1/DTLB2/Memory 00000000106A3EBC/000000000000060D/000000000002BA34
+Random access: 000000003D91DBC4 tacts in long mode with page addressing
+DTLB1/DTLB2/Memory 0000000005495B32/00000000001D8605/0000000000DFBB04
+Disabled cache:
+Merge sort:    000000163072067D tacts in unreal mode
+DTLB1/DTLB2/Memory 000000000EFADEA3/0000000000000766/000000000002B8B3
+Random access: 0000000AC10E4B6F tacts in unreal mode
+DTLB1/DTLB2/Memory 00000000119BF91E/000000000007A854/0000000002F5492B
+Merge sort:    0000001630AF91D4 tacts in protected mode with page addressing
+DTLB1/DTLB2/Memory 000000000EFA68B5/0000000000000783/000000000002B889
+Random access: 0000000ADF34B1F7 tacts in protected mode with page addressing
+DTLB1/DTLB2/Memory 000000000CD04E2D/00000000001D8E20/0000000000E195A7
+Merge sort:    000000162C7A48C8 tacts in long mode with page addressing
+DTLB1/DTLB2/Memory 00000000137D9ABB/0000000000000768/000000000002B89F
+Random access: 00000008CB2748DE tacts in long mode with page addressing
+DTLB1/DTLB2/Memory 00000000073578AC/00000000001D4DF8/0000000000E1D6CC
+
+With enabled cache protected mode penalty:
+Merge sort:    0.5%
+Random access: 11%
+With disabled cache protected mode penalty:
+Merge sort:    0%
+Random access: 1%
+
+With enabled cache long mode penalty:
+Merge sort:    1%
+Random access: 15%
+With disabled cache long mode penalty:
+Merge sort:    -0.07%
+Random access: -18.2%
